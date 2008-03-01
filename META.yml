@@ -1,0 +1,8 @@
+name:         XPanel
+version:      0.0.1
+version_from: lib/XPanel.pm
+installdirs:  site
+requires:
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/XPanel.t
+lib/XPanel.pm
+META.yml                                 Module meta-data (added by MakeMaker)
