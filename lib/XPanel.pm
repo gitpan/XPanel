@@ -2,11 +2,52 @@ package XPanel;
 
 use strict;
 use warnings;
-use vars qw{$VERSION};
+use vars qw($VERSION);
 
-BEGIN {
-	require 5.8.8;
-	$VERSION = '0.0.3';
+$VERSION = '0.0.7';
+
+
+sub new {
+	my $this = shift;
+	my $class = ref($this) || $this;
+	my $self = {};
+	bless $self, $class;
+	$self->_initialize();
+	return $self;
+}
+
+sub _initialize {
+	my $self = shift;
+	$self->{'customer_id'} = 0;
+	$self->{'login_name'} = '';
+	$self->{'password'} = '';
+	$self->{'status'} = 'notValidated';
+	$self->{'password_hint'} = '';
+	$self->{'call_in_pin'} = 0;
+	$self->{'first_name'} = '';
+	$self->{'middle_name'} = '';
+	$self->{'last_name'} = '';
+	$self->{'organization'} = '';
+	$self->{'address1'} = '';
+	$self->{'address2'} = '';
+	$self->{'city'} = '';
+	$self->{'state'} = '';
+	$self->{'postal_code'} = '';
+	$self->{'country'} = '';
+	$self->{'work_phone'} = 0;
+	$self->{'home_phone'} = '';
+	$self->{'mobile_phone'} = '';
+	$self->{'fax'} = '';
+	$self->{'email'} = '';
+	$self->{'account_type'} = 0;
+	$self->{'gender'} = '';
+	$self->{'birthday'} = '';
+	$self->{'language'} = 'en-US';
+	$self->{'subscribe'} = 0;
+	$self->{'last_ip_address'} = '';
+	$self->{'comments'} = '';
+	$self->{'creation_date'} = '0000-00-00 00:00:00';
+	$self->{'updated_date'} = '0000-00-00 00:00:00';
 }
 
 1;

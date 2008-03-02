@@ -2,6 +2,7 @@ Changes
 Makefile.PL
 MANIFEST
 README
-t/XPanel.t
+t/01_main.t
+t/02_param.t
 lib/XPanel.pm
 META.yml                                 Module meta-data (added by MakeMaker)

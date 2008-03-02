@@ -17,6 +17,9 @@ To install this module type the following:
 or
  perl -MCPAN -e 'install XPanel;'
 
+to check if exist
+ perl -MXPanel -e 1
+
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2008 Lilian Rudenco
