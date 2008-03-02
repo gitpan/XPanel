@@ -2,9 +2,12 @@ package XPanel;
 
 use strict;
 use warnings;
+use vars qw{$VERSION};
 
-use version;
-our $VERSION = qv('0.0.1');
+BEGIN {
+	require 5.8.8;
+	$VERSION = '0.0.2';
+}
 
 1;
 __END__
@@ -32,7 +35,7 @@ Thank you very much for your consideration in this matter.
 
 =head1 AUTHOR
 
-Lilian Rudenco, E<lt>http://www.xpanel.com/<gt>
+Lilian Rudenco, E<lt>http://www.xpanel.com/E<gt>
 
 =head1 COPYRIGHT AND LICENSE
 

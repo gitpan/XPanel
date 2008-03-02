@@ -1,15 +1,16 @@
-# Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it should work as `perl cPanel.t'
+#!/usr/bin/perl -w
 
-#########################
+# Compile testing for XPanel
 
-# change 'tests => 1' to 'tests => last_test_to_print';
+use strict;
+BEGIN {
+	$|  = 1;
+	$^W = 1;
+}
 
-use Test::More tests => 1;
-BEGIN { use_ok('XPanel') };
+use Test::More tests => 2;
 
-#########################
+ok( $] >= 5.8.8, "Your perl is new enough" );
+use_ok('XPanel');
 
-# Insert your test code below, the Test::More module is use()ed here so read
-# its man page ( perldoc Test::More ) for help writing this test script.
-
+exit(0);

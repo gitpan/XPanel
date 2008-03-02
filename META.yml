@@ -1,8 +1,13 @@
 name:         XPanel
-version:      0.0.1
+version:      0.0.2
 version_from: lib/XPanel.pm
 installdirs:  site
 requires:
+    CGI::Session:
+    HTML::Template:
+    File::Type:
+    Digest::MD5:                   
+    Test::More:                    
 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+generated_by: ExtUtils::MakeMaker version 6.30
