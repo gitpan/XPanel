@@ -1,23 +1,23 @@
- --- #YAML:1.0
- name: XPanel
- abstract: XPanel Perl module
- version: 0.0.7
- author:
-   - Lilian Rudenco <xpanel@cpan.org>
- license: perl
- distribution_type: module
- requires:
-	CGI::Session:		0
-	File::Type:		0
-	Digest::MD5:		0
-	Test::More:		0
-	HTML::Template:		0
-	Geo::IP::PurePerl:	0
- resources:
-    homepage: http://xpanel.com
- urls:
+--- #YAML:1.0
+name: XPanel
+abstract: XPanel Perl module
+version: 0.0.1
+author:
+  - Lilian Rudenco <xpanel@cpan.org>
+license: perl
+distribution_type: module
+requires:
+   CGI::Session:		0
+   File::Type:		0
+   Digest::MD5:		0
+   Test::More:		0
+   HTML::Template:		0
+   Geo::IP::PurePerl:	0
+resources:
+   homepage: http://xpanel.com
+urls:
    license: http://dev.perl.org/licenses/
- meta-spec:
+meta-spec:
    version: 1.3
    url: http://module-build.sourceforge.net/META-spec-v1.3.html
- generated_by: Module::Build version 0.20
+generated_by: Module::Build version 0.20

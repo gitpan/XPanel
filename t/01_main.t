@@ -1,7 +1,5 @@
 #!/usr/bin/perl -w
 
-# Compile testing for XPanel
-
 use strict;
 BEGIN {
 	$|  = 1;
