@@ -3,12 +3,12 @@ version: 0.0.1
 version_from: lib/XPanel.pm
 installdirs:  site
 requires:
-   CGI::Session:	0
-   File::Type:		0
-   Digest::MD5:		0
-   Test::More:		0
-   HTML::Template:	0
-   Geo::IP::PurePerl:	0
+   CGI::Session:
+   File::Type:
+   Digest::MD5:
+   Test::More:
+   HTML::Template:
+   Geo::IP::PurePerl:
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.30
